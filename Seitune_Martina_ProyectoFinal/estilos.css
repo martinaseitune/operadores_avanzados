@@ -1,0 +1,58 @@
+body {font-family: 'Quicksand', sans-serif;}
+
+#logo {width: 130px;
+            height: 55px;
+            background: url("img/logo-quimera.png") no-repeat;
+            font-size: 0;
+           position: fixed;            
+            top: 8px;
+            left: 50px;
+            z-index: 1100;}
+
+header {position: relative;}
+
+  .active {
+            background: white;
+        }
+        .active a {
+            color: grey !important;
+        }
+
+.fondo1 {background-color: #264276;}
+
+.fondo2 {
+background-color: rgb(170, 170, 171);}
+
+span {color: #264276;
+font-weight: bold;
+font-size: 1.5em;}
+
+#redes {list-style: none;
+display: inline-flex;}
+
+a{text-decoration: none;}
+
+footer {color: white;}
+
+.stop-wow {
+            animation-name: none !important;
+            visibility: visible !important;}
+
+#listaContacto{
+    list-style: none;
+}
+
+#listaContacto a{
+    color: white;
+    text-decoration: none;
+}
+
+#btnCalcular:hover{
+    background-color: rgb(170, 170, 171); 
+    color: white;
+}
+
+#btnLimpiar:hover{
+    background-color: rgb(170, 170, 171); 
+    color: white;
+}
